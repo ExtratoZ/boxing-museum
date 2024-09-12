@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #111;
+    --second-color: #ebebeb;
+    --card-color: #4b4b4b;
+}
+
+div.container a img {
+    width: 60px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+header {
+    background-color: rgba(201, 197, 197, 0.2);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header a.nav-link:hover {
+    border: 1px solid var(--second-color);
+    background-color: var(--second-color);
+}
+
+#header {
+    transition: background-color ease 0.5s;
+}
+
+.header-scrolled {
+    background-color: rgba(201, 197, 197, 0.9);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #111;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #313131;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #111; /* Substitua pela cor desejada */
+    border: 1px solid #111;
+}
+
+body {
+    background: var(--primary-color);
+    color: var(--second-color);
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--second-color);
+    text-align: center;
+    z-index: 10; /* Certifique-se de que o texto está acima do carrossel */
+}
+
+.shadow-X {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 1%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+
+.shadow-Y {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.item-count {
+    background-position: center;
+    background-size: cover;
+}
+
+.frist-item {
+    background-image: url(./img/um-ringue-de-boxe-vazio-com-postes-de-canto-vermelhos-e-azuis-sob-spotlights-brilhantes_661047-10303.jpg);
+}
+
+.second-item {
+    background-image: url(./img/loja-de-equipamentos-de-boxe-7_975681-250585.jpg);
+}
+
+.third-item {
+    background-image: url(./img/uma-foto-de-luvas-de-boxe-e-sacos-de-boxe_1320456-19373.jpg);
+}
+
+article.card {
+    background-color: var(--card-color);
+    color: var(--second-color);
+    border: none;
+    margin: 6px;
+    height: 95%;
+}
+
+article.card img {
+    height: 45%;
+}
+
+button.nav-link {
+    color: var(--second-color);
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--primary-color);
+    color: var(--second-color);
+}
+
+nav.nav-tabs {
+    margin: 24px 0px;
+    justify-content: center;
+    border: none;
+}
+
+button.nav-link:hover {
+    color: var(--second-color);
+}
+
+button.btn-light {
+    background-color: var(--second-color);
+    border: none;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: var(--card-color);
+    height: 40px;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 8px;
+}
+
+@media (max-width: 724px) {
+     div.carousel-caption p{
+        font-size: 13px;
+    }
+  }

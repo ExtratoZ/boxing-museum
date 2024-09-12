@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing Museum</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header" class="fixed-top">
+        <div class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand logo"><img src="./img/32583476-boxing-symbol.png" alt=""></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#champ">Campeões</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="5000" class="carousel-item item-count frist-item active">
+                <div class="shadow-Y">
+                    <div class="shadow-X">
+                    </div>
+                </div>
+            </div>
+            <div data-bs-interval="5000" class="carousel-item item-count second-item">
+                <div class="shadow-Y">
+                    <div class="shadow-X"></div>
+                </div>
+            </div>
+            <div data-bs-interval="5000" class="carousel-item item-count third-item">
+                <div class="shadow-Y">
+                    <div class="shadow-X"></div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-caption">
+            <h3>História do Boxe</h3>
+            <p>
+                Há registros longínquos da existência do boxe já no ano 3.000 a.C., no Egito. Mas foi na Grécia Antiga, no século 7 a.C., que a modalidade começou a tomar cara de esporte. 
+                A história do boxe, no entanto, é cheia de altos e baixos. Embora tenha feito parte das Olimpíadas da Grécia Antiga, quando os lutadores apenas protegiam as mãos com pedaços de couro, o boxe chegou a morrer...
+            </p>
+            <button class="btn btn-light" type="button">Ver Mais</button>
+        </div>
+    </div>
+    <div class="container" id="champ">
+        <h3>Campeões atuais</h3>
+        <nav class="nav nav-tabs">
+            <button data-bs-toggle="tab" data-bs-target="#wba" class="nav-link active" type="button">WBA</button>
+            <button data-bs-toggle="tab" data-bs-target="#wbc" class="nav-link" type="button">WBC</button>
+            <button data-bs-toggle="tab" data-bs-target="#ibf" class="nav-link" type="button">IBF</button>
+        </nav>
+        <div class="tab-content">
+            <div class="tab-pane active" id="wba">
+                <div class="row">
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Peso pesado
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfG4jzsSpBgZHp8oEDvV-FqxXBwGA7uK-_mw&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Oleksandr Usyk</h4>
+                                <h5 class="card-subtitle">Ucrânia</h5>
+                                <p class="card-text">Oleksandr Oleksandrovych Usyk é um boxeador profissional ucraniano. Ele conquistou o campeonato indiscutível em duas categorias de peso, no peso cruzador e no peso pesado...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Cruzador
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPQ0O2W0imCqM_SFkkO5hCQQduQJCeI3ZVg&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Gilberto Ramírez</h4>
+                                <h5 class="card-subtitle">México</h5>
+                                <p class="card-text">Gilberto Ramírez Sánchez é um boxeador profissional mexicano que detém o título cruiserweight da World Boxing Association desde março de 2024...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Meio pesado
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQTcy7W-JD093p_rU-4sIY3gWB-iX_Yh1R4Q&s" alt="">                       
+                            <div class="card-body">
+                                <h4 class="car-title">Dmitry Bivol</h4>
+                                <h5 class="card-subtitle">Rússia</h5>
+                                <p class="card-text">Dmitry Yuryevich Bivol é um boxeador profissional russo que detém o título dos meio-pesados ​​​​da Associação Mundial de Boxe desde 2017...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Peso médio
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqDN7hKBsWeJ92eSHajRZkcxexlR3y7aTuYg&s" alt="">                      
+                            <div class="card-body">
+                                <h4 class="car-title">Erislandy Lara</h4>
+                                <h5 class="card-subtitle">Cuba</h5>
+                                <p class="card-text">Erislandy Lara é um pugilista cubano. Deixou a delegação de seu país durante os Jogos Pan-Americanos realizados no Rio de Janeiro em 2007...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Meio médio
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwmMN0IxyZudiuSPHmkuTQcIRKWd9xwCsMA&s" alt="">
+                        
+                            <div class="card-body">
+                                <h4 class="car-title">Terrence Crawford</h4>
+                                <h5 class="card-subtitle">Estados Unidos</h5>
+                                <p class="card-text">Terence Allan Crawford é um boxeador profissional americano. Ele conquistou vários campeonatos mundiais em quatro categorias de peso...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Super pena
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Jfs23SixEd1Miw96OP5zadhpyox6PvWUnw&s0" alt="">                      
+                            <div class="card-body">
+                                <h4 class="car-title">Lamont Roach Jr.</h4>
+                                <h5 class="card-subtitle">Estados Unidos</h5>
+                                <p class="card-text">Lamont Roach Jr. é um boxeador profissional americano que detém o título dos superplumas da WBA desde novembro de 2023...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="wbc">
+            <div class="row">
+                <div class="col-xs-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Peso pesado
+                        </header>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfG4jzsSpBgZHp8oEDvV-FqxXBwGA7uK-_mw&s" alt="">
+                        <div class="card-body">
+                            <h4 class="car-title">Oleksandr Usyk</h4>
+                            <h5 class="card-subtitle">Ucrânia</h5>
+                            <p class="card-text">Oleksandr Oleksandrovych Usyk é um boxeador profissional ucraniano. Ele conquistou o campeonato indiscutível em duas categorias de peso, no peso cruzador e no peso pesado...</p>
+                            <button class="btn btn-light" type="button">Ver Mais</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Cruzador
+                        </header>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxrbfMon5439nTZYDjiSOEyN-s1vuT3at3dA&s00" alt="">
+                        <div class="card-body">
+                            <h4 class="car-title">Noel Mikaelian</h4>
+                            <h5 class="card-subtitle">Alemanha / Armênia</h5>
+                            <p class="card-text">Norair Mikaelian, mais conhecido como Noel Gevor Mikaelian, é um boxeador profissional armênio-alemão que é o atual campeão mundial dos pesos cruzados do WBC...</p>
+                            <button class="btn btn-light" type="button">Ver Mais</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Meio pesado
+                        </header>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUKjZkVrplN1vJA7RU74ZI9-TGry9yQKqY-g&s" alt="">
+                        <div class="card-body">
+                            <h4 class="car-title">Artur Beterbiev</h4>
+                            <h5 class="card-subtitle">Rússia</h5>
+                            <p class="card-text">Artur Asilbekovich Beterbiev é um boxeador profissional russo e canadense. Ele é campeão unificado na categoria meio-pesado, tendo detido o título da Federação Internacional de Boxe desde 2017...</p>
+                            <button class="btn btn-light" type="button">Ver Mais</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Peso médio
+                        </header>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60tpH7VdR3QejYYxBwfLphs8222hF2uLTtg&s" alt="">
+                        <div class="card-body">
+                            <h4 class="car-title">Carlos Adames</h4>
+                            <h5 class="card-subtitle">República Dominicana</h5>
+                            <p class="card-text">Carlos Adames é um boxeador profissional dominicano. Ele detém o título dos médios do Conselho Mundial de Boxe desde maio de 2024...</p>
+                            <button class="btn btn-light" type="button">Ver Mais</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Meio médio
+                        </header>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOAf6DZe5QD8biL-iyvbWd5FWDF_e0opESAg&s" alt="">
+                        <div class="card-body">
+                            <h4 class="car-title">Mario Barrios</h4>
+                            <h5 class="card-subtitle">Estados Unidos</h5>
+                            <p class="card-text">Mario Thomas Barrios é um boxeador profissional americano que foi campeão dos meio-médios do Conselho Mundial de Boxe desde junho de 2024...</p>
+                            <button class="btn btn-light" type="button">Ver Mais</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Super pena
+                        </header>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1IXbx1UZeoToUFMLcz3sbjZbHXcE7URCY6g&s" alt="">
+                        <div class="card-body">
+                            <h4 class="car-title">Robson Conceiçao</h4>
+                            <h5 class="card-subtitle">Brasil</h5>
+                            <p class="card-text">Robson Donato Conceição é um pugilista brasileiro. Foi campeão olímpico da categoria peso-leve e é o atual campeão superpena pelo Conselho Mundial...</p>
+                            <button class="btn btn-light" type="button">Ver Mais</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            </div>
+            <div class="tab-pane" id="ibf">
+                <div class="row">
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Peso pesado
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4hii2wnm_8ptq5i2aCvBmaPY_wG_xyDdTew&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Daniel Dubois</h4>
+                                <h5 class="card-subtitle">Reino Unido</h5>
+                                <p class="card-text">Daniel Dubois é um boxeador profissional britânico. Ele detém o título de peso pesado da Federação Internacional de Boxe desde junho de 2024...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Cruzador
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKwArJQ01G6P0pMydc4RYiCZOdxoV6uvQWtg&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Jai Opetaia</h4>
+                                <h5 class="card-subtitle">Austrália</h5>
+                                <p class="card-text">Jai Opetaia é um boxeador profissional australiano. Ele deteve o título da Federação Internacional de Boxe de 2022 a 2023...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Meio pesado
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUKjZkVrplN1vJA7RU74ZI9-TGry9yQKqY-g&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Artur Beterbiev</h4>
+                                <h5 class="card-subtitle">Rússia</h5>
+                                <p class="card-text">Artur Asilbekovich Beterbiev é um boxeador profissional russo e canadense. Ele é campeão unificado na categoria meio-pesado...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Peso médio
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBmWbtc_8cb7bIIJ4NGjDEJC4rYn_u_osOyw&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Janibek Alimkhanuly</h4>
+                                <h5 class="card-subtitle">Cazaquistão</h5>
+                                <p class="card-text">Janibek Alimkhanuly é um boxeador profissional cazaque e campeão unificado dos médios que detém o título WBO desde 2022 e o título IBF desde outubro de 2023...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Meio médio
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHIT-lLOw_bnHoEQXJ9EaBfCpbgTR3A5DqRg&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Jaron Ennis</h4>
+                                <h5 class="card-subtitle">Estados Unidos</h5>
+                                <p class="card-text">Jaron Ennis é um boxeador profissional americano que detém o título meio-médio da Federação Internacional de Boxe desde 2023...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-xs-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <header class="card-header">
+                                Super pena
+                            </header>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGY3sEoYWGKOqLyVIGzxVrtPj6unWyCf4qQ&s" alt="">
+                            <div class="card-body">
+                                <h4 class="car-title">Anthony Cacace</h4>
+                                <h5 class="card-subtitle">Irlanda</h5>
+                                <p class="card-text">Anthony Cacace é um boxeador profissional irlandês que detém o título dos superplumas da IBF desde maio de 2024...</p>
+                                <button class="btn btn-light" type="button">Ver Mais</button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Produzido por Caetano Messina</p>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
